@@ -1,2 +1,2 @@
 # yuliayakovenko.ru
-yuliayakovenko.ru content
+yuliayakovenko.ru and yulia-yakovenko.ru content
