@@ -5,8 +5,8 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Elements</title>
-  <meta name="description" content="My Portfolio">
+  <title>Yulia Yakovenko</title
+>  <meta name="description" content="My Portfolio">
   <meta name="author" content="Yakovenko">
 
   <!-- Mobile Specific Metas
@@ -25,32 +25,33 @@
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
+     <!-- Put this script tag to the <head> of your page -->
+<script type="text/javascript" src="https://vk.com/js/api/openapi.js?146"></script>
 
+<script type="text/javascript">
+  VK.init({apiId: 6019345, onlyWidgets: true});
+</script>
 </head>
 <body>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
-  <!-- columns should be the immediate child of a .row -->
-  <div class="row">
-    <div class="two columns" >My grid</div>
-    <div class="ten columns" >layout</div>
-  </div>
-
-  <!-- just use a number and class 'column' or 'columns' -->
-  <div class="row">
-    <div class="two columns" >Test</div>
-    <div class="ten columns" >!!!!!</div>
-  </div>
-
     <div class="row">
       <div class="six columns" style="margin-top: 25%">
         <h4>Yulia Yakovenko</h4>
         <p>My page is under construction</p>
       </div>
      </div>
-
+ <div class="row">
+      <div class="six columns" style="margin-top: 25%">
+<!-- Put this div tag to the place, where the Comments block will be -->
+<div id="vk_comments"></div>
+<script type="text/javascript">
+VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
+</script>
+   </div>
+     </div>
 
   </div>
 

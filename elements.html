@@ -27,16 +27,39 @@
   <link rel="icon" type="image/png" href="images/favicon.png">
 
   <style>
+  @media (min-width: 0) {
   .box {
     border: 1px solid blue;
-    background-color: #EEEEEE;
   }
+}
 
   @media (min-width: 550px) {
   .top-margin {
     padding-top: 5em;
   }
   }
+
+  .box+.box {
+    background-color: salmon;
+  }
+
+  .box+.box+.box {
+    background-color: skyblue;
+  }
+
+  .box+.box+.box+.box {
+    background-color: gray;
+  }
+
+  .box+.box+.box+.box+.box {
+    background-color: #F3AB4F;
+  }
+
+   .box+.box+.box+.box+.box+.box {
+    background-color: #43ABEF;
+  }
+
+
   </style>
 
 </head>
@@ -49,19 +72,87 @@
   <div class="row box top-margin">
   </div>
   <div class="row">
-    <div class="seven columns box" style="padding-top: 5em" >
+    <div class="three columns box" ><p>content</p></div>
+    <div class="one column box" ><p>cnt</p></div>
+    <div class="three columns box" ><p>content</p></div>
+    <div class="one column box" ><p>cnt</p></div>
+    <div class="three columns box" ><p>content</p></div>
+    <div class="one column box"><p>cnt</p></div>
+  </div>
+  <div class="row">
+    <div class="two columns box" ><p>content</p></div>
+    <div class="two columns box" ><p>content</p></div>
+    <div class="two columns box" ><p>content</p></div>
+    <div class="two columns box" ><p>content</p></div>
+    <div class="two columns box" ><p>content</p></div>
+    <div class="two columns box" ><p>content</p></div>
+  </div>
+  <div class="row">
+    <div class="three columns box" ><p>content</p></div>
+    <div class="three columns box" ><p>content</p></div>
+    <div class="three columns box" ><p>content</p></div>
+    <div class="three columns box" ><p>content</p></div>
+  </div>
+    <div class="row">
+    <div class="four columns box" ><p>content</p></div>
+    <div class="four columns box" ><p>content</p></div>
+    <div class="four columns box" ><p>content</p></div>
+  </div>
+    <div class="row">
+    <div class="five columns box" ><p>content</p></div>
+    <div class="three columns box" ><p>content</p></div>
+    <div class="four columns box" ><p>content</p></div>
+  </div>
+  <div class="row">
+    <div class="six columns box" ><p>content</p></div>
+    <div class="six columns box" ><p>content</p></div>
+  </div>
+  <div class="row">
+    <div class="seven columns box" ><p>content</p></div>
+    <div class="five columns box" ><p>content</p></div>
+  </div>
+  <div class="row">
+    <div class="eight columns box" ><p>content</p></div>
+    <div class="four columns box" ><p>content</p></div>
+  </div>
+  <div class="row">
+    <div class="nine columns box" ><p>content</p></div>
+    <div class="three columns box" ><p>content</p></div>
+  </div>
+  <div class="row">
+    <div class="ten columns box" ><p>content</p></div>
+    <div class="two columns box" ><p>content</p></div>
+  </div>
+  <div class="row">
+    <div class="eleven columns box" ><p>content</p></div>
+    <div class="one columns box" ><p>cnt</p></div>
+  </div>
+
+  <div class="row">
+    <div class="seven columns box" >
       <h1>Yulia Yakovenko</h1>
       <h2>UI/UX designer</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non nunc congue, vulputate eros congue, malesuada ligula. Etiam rhoncus suscipit eros. Donec molestie, tortor id accumsan maximus, orci lectus aliquet odio, et lacinia quam mi aliquam leo. Suspendisse cursus neque eros, vitae mollis nibh ornare ut. Quisque at auctor lorem, eu aliquet turpis. Pellentesque ultricies nunc nec mauris maximus, in sollicitudin magna ultrices. In odio dolor, egestas sit amet urna id, ornare maximus tortor. Aenean efficitur varius aliquet. Quisque eleifend nisl a urna pulvinar dapibus. Sed ut gravida velit, id fringilla felis. Pellentesque fermentum molestie nulla, vel egestas justo eleifend nec. Aliquam et lorem eget elit egestas ultricies. Sed sit amet quam sit amet arcu efficitur pretium. Quisque congue nulla et faucibus mattis. Nulla mollis blandit ex nec eleifend. Nullam ex erat, posuere rutrum massa sit amet, pharetra pellentesque sem.
-      </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non nunc congue, vulputate eros congue, malesuada ligula. Etiam rhoncus suscipit eros. Donec molestie, tortor id accumsan maximus, orci lectus aliquet odio, et lacinia quam mi aliquam leo. </p>
+        <ul>
+          <li>Suspendisse cursus neque eros, </li>
+          <li>vitae mollis nibh ornare ut.</li>
+          <li>Quisque at auctor lorem,</li>
+          <li>eu aliquet turpis.</li>
+          <li>Pellentesque ultricies nun</li>
+          <li> nec mauris maximus, in sollici</li>
+        </ul>
     </div>
     <div class="five columns box" ><img class="u-max-full-width" src="images/a.jpg"></img></div>
   </div>
 
   <!-- just use a number and class 'column' or 'columns' -->
   <div class="row">
-    <div class="two columns box" >Test</div>
-    <div class="ten columns box" >!!!!!</div>
+    <div class="four columns box" ><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non nunc congue, vulputate eros congue, malesuada ligula. Etiam rhoncus suscipit eros. Donec molestie, tortor id accumsan maximus, orci lectus aliquet odio, et lacinia quam mi aliquam leo. Suspendisse cursus neque eros, vitae mollis nibh ornare ut. Quisque at auctor lorem, eu aliquet turpis. Pellentesque ultricies nunc nec mauris maximus, in sollicitudin magna ultrices. In odio dolor, egestas sit amet urna id, ornare maximus tortor. Aenean efficitur varius aliquet. Quisque eleifend nisl a urna pulvinar dapibus. Sed ut gravida velit, id fringilla felis. Pellentesque fermentum molestie nulla, vel egestas justo eleifend nec. Aliquam et lorem eget elit egestas ultricies. Sed sit amet quam sit amet arcu efficitur pretium. Quisque congue nulla et faucibus mattis. Nulla mollis blandit ex nec eleifend. Nullam ex erat, posuere rutrum massa sit amet, pharetra pellentesque sem.
+      </p></div>
+    <div class="four columns box" ><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non nunc congue, vulputate eros congue, malesuada ligula. Etiam rhoncus suscipit eros. Donec molestie, tortor id accumsan maximus, orci lectus aliquet odio, et lacinia quam mi aliquam leo. Suspendisse cursus neque eros, vitae mollis nibh ornare ut. Quisque at auctor lorem, eu aliquet turpis. Pellentesque ultricies nunc nec mauris maximus, in sollicitudin magna ultrices. In odio dolor, egestas sit amet urna id, ornare maximus tortor. Aenean efficitur varius aliquet. Quisque eleifend nisl a urna pulvinar dapibus. Sed ut gravida velit, id fringilla felis. Pellentesque fermentum molestie nulla, vel egestas justo eleifend nec. Aliquam et lorem eget elit egestas ultricies. Sed sit amet quam sit amet arcu efficitur pretium. Quisque congue nulla et faucibus mattis. Nulla mollis blandit ex nec eleifend. Nullam ex erat, posuere rutrum massa sit amet, pharetra pellentesque sem.
+      </p></div>
+    <div class="four columns box" ><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non nunc congue, vulputate eros congue, malesuada ligula. Etiam rhoncus suscipit eros. Donec molestie, tortor id accumsan maximus, orci lectus aliquet odio, et lacinia quam mi aliquam leo. Suspendisse cursus neque eros, vitae mollis nibh ornare ut. Quisque at auctor lorem, eu aliquet turpis. Pellentesque ultricies nunc nec mauris maximus, in sollicitudin magna ultrices. In odio dolor, egestas sit amet urna id, ornare maximus tortor. Aenean efficitur varius aliquet. Quisque eleifend nisl a urna pulvinar dapibus. Sed ut gravida velit, id fringilla felis. Pellentesque fermentum molestie nulla, vel egestas justo eleifend nec. Aliquam et lorem eget elit egestas ultricies. Sed sit amet quam sit amet arcu efficitur pretium. Quisque congue nulla et faucibus mattis. Nulla mollis blandit ex nec eleifend. Nullam ex erat, posuere rutrum massa sit amet, pharetra pellentesque sem.
+      </p></div>
   </div>
   </div>
 
