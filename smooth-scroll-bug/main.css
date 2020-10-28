@@ -1,0 +1,40 @@
+.scroll-container {
+  margin: 50px;
+  scroll-behavior: smooth;
+  overflow: hidden;
+  height: 900px;
+}
+
+/*Shakes occurs when using these values*/
+.scroll-container-shake-issue {
+  will-change: transform;
+  overflow: auto !important;
+}
+
+.item-0 {
+  margin: 0px;
+  background-color: blue;
+  height: 300px;
+  font-size: 180px;
+}
+
+.item-1 {
+  margin: 0px;
+  background-color: red;
+  height: 130px;
+  font-size: 80px;
+}
+
+.item-2 {
+  margin: 0px;
+  background-color: green;
+  height: 240px;
+  font-size: 200px;
+}
+
+.item-3 {
+  margin: 0px;
+  background-color: yellow;
+  height: 210px;
+  font-size: 180px;
+}
